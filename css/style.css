@@ -470,4 +470,81 @@ h1,h2,h3{
 
     cursor: pointer ;
 }
+/* media-queries */
+@media(max-width:541px){
+    html{
+        /*it is 8px wrt 16px */
+        font-size: 50%;
+    }
+    .nav-bar .nav-items,.nav-bar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .header-content .main-heading{
+        display: none;
+        
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .img-box,.row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .features .box{
+        float: none;
+        width: 100%;
+        margin-bottom: 5px;
+        
+    }
+}
 
+@media(max-width:900px){
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .img-box,.row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align:center;
+    }
+    .cta-banner{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .form-wrapper .company-address,
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+}
+
+@media (min-width:542px) and (max-width:670px){
+    .features .box{
+        float: none;
+        width: 75%;
+        display: block;
+        margin: 5px auto;
+    }
+}
+
+@media(orientation:landscape) and (max-width:700px){
+    .header-content .main-heading{
+        display: none;
+    }
+}
