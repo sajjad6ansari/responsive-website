@@ -3,5 +3,5 @@
 # Teck Stack 
    HTML and CSS
 # Hosted on Netlify
-   Travel the Workld link https://traveltheworldresponsive.netlify.app/
+   Travel the World link https://traveltheworldresponsive.netlify.app/
 
